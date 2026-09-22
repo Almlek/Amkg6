@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "الذكي",
+  "projectType": "saas",
+  "projectName": "الذكي",
+  "projectDescription": "دفتر التحضير الذكي — تطبيق تعليمي شامل يستخدم الذكاء الاصطناعي لمساعدة المعلمين على إعداد خطط الدروس والاختبارات والمواد التعليمية.",
   "theme": "almond",
-  "colors": {
-    "primary": "#7c3aed",
-    "dark": "#7c3aed"
-  },
-  "favicon": "/favicon.svg",
-  "locale": "ar",
+  "primaryColor": "#7c3aed",
+  "lightColor": null,
+  "darkColor": "#7c3aed",
   "navigation": {
     "tabs": [
       {
@@ -60,5 +58,27 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "توليد خطط الدروس بالذكاء الاصطناعي",
+    "إنشاء سبورات درسية تفاعلية",
+    "دروس صوتية مع تصدير فيديو",
+    "ملخصات تفاعلية وخرائط ذهنية",
+    "اختبارات إلكترونية وورقية وشفوية",
+    "منصة مدرسية محلية بدون إنترنت",
+    "مكتبة الكتب والمناهج",
+    "دفتر الدرجات والحضور",
+    "جدول الحصص التفاعلي",
+    "حل نماذج الاختبارات الوزارية",
+    "تصدير الملفات التفاعلية للطلاب",
+    "نسخ احتياطي واستيراد البيانات"
+  ],
+  "publicApiSurface": [
+    "Gemini API integration",
+    "PDF/Word file extraction",
+    "Image OCR with AI",
+    "HTML export for interactive files",
+    "Video export for audio lessons",
+    "Local network school platform"
+  ]
 }
